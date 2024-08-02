@@ -318,6 +318,7 @@ img{
 }
 
 /*design*/
+
 .design{
 	background-image: url(../img/index-bg.png);
 	background-size: cover;
@@ -352,8 +353,9 @@ img{
 	.design_section{
 		padding-bottom: 56px;
 	}
-	
-
+	.design{
+		background-image: url(../img/index-bg-md.png);
+	}
 }
 @media (max-width:576px) {
 
@@ -363,6 +365,9 @@ img{
 	.design_section{
 		padding-top: 40px;
 		padding-bottom: 16px;
+	}
+	.design{
+		background-image: url(../img/index-bg-sm.png);
 	}
 }
 
@@ -423,6 +428,7 @@ img{
 }
 
 /*contact*/
+
 .contact_section{
 	padding-top: 80px;
 	padding-bottom: 80px;

@@ -109,7 +109,7 @@ img{
 	justify-content: space-between;
 }
 .nav_logo{
-	background-image: url(/img/logo-white.png);
+	background-image: url(../img/logo-white.png);
 	width: 80px;
 	height: 48px;
 	display: block;
@@ -170,7 +170,7 @@ img{
 /*banner*/
 
 .banner{
-	background-image: url(/img/home-header.png);
+	background-image: url(../img/home-header.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -203,7 +203,7 @@ img{
 @media (max-width:767px) {
 	
 	.banner{
-		background-image: url(/img/home-header-sm.png);
+		background-image: url(../img/home-header-sm.png);
 	}
 	.banner_p{
 		font-size: 32px;
@@ -327,8 +327,9 @@ img{
 }
 
 /*design*/
+
 .design{
-	background-image: url(/img/index-bg.png);
+	background-image: url(../img/index-bg.png);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -371,7 +372,7 @@ img{
 		padding-bottom: 56px;
 	}
 	.design{
-		background-image: url(/img/index-bg-md.png);
+		background-image: url(../img/index-bg-md.png);
 	}
 	
 
@@ -386,7 +387,7 @@ img{
 		padding-bottom: 16px;
 	}
 	.design{
-		background-image: url(/img/index-bg-sm.png);
+		background-image: url(../img/index-bg-sm.png);
 	}
 	
 }
@@ -421,9 +422,7 @@ img{
 .customer_list p{
 	text-align: left;
 }
-.customer_item{
-	
-}
+
 .customer_date{
 	margin-top: auto;
 }
@@ -448,6 +447,7 @@ img{
 }
 
 /*contact*/
+
 .contact_section{
 	padding-top: 80px;
 	padding-bottom: 80px;
